@@ -1,0 +1,171 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  minimummcversion = 1.16.5
+  randomonlyfirsttime = false
+  maximummcversion = 1.16.5
+}
+
+customization {
+  path = screenshots/2022-05-26_14.01.22.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = 2276553a-b950-442b-800f-60bcb20383581653582033398
+  x = 9
+  action = movebutton
+  y = 28
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 131
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = element
+  orientation_element = vanillabtn:400382
+  x = 18
+  action = movebutton
+  y = 29
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-left
+  x = -3
+  action = movebutton
+  y = -93
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  path = resourcemango/logo_mangodeath.png
+  orientation = top-centered
+  x = -136
+  width = 272
+  action = addtexture
+  actionid = b57a3c1b-db51-41b9-a6de-7ba6c498c2911653594112381
+  y = -8
+  height = 138
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -75
+  width = 150
+  actionid = 2276553a-b950-442b-800f-60bcb20383581653582033398
+  action = addbutton
+  y = -10
+  label = Entrar al server
+  value = mangodeath2.apexmc.co
+  height = 20
+}
+
+customization {
+  orientation = element
+  shadow = false
+  orientation_element = d79b10d7-1549-441f-87ef-076fb7c4a9c91653592327093
+  x = 0
+  action = addtext
+  actionid = 9b9fbca9-3e9a-457c-9251-3aaac1b00ba81653591766596
+  y = 17
+  scale = 1.0
+  alignment = left
+  value = Estado del server: %serverstatus:mangodeath2.apexmc.co%
+}
+
+customization {
+  orientation = element
+  shadow = false
+  orientation_element = 2ebb970e-169b-42c8-abef-ba0b7b9ce01c1653592258346
+  x = -52
+  action = addtext
+  actionid = bf01f786-d7d2-4229-9018-6f087a6c1d761653592128690
+  y = 12
+  scale = 1.0
+  alignment = left
+  value = Tu usuario: %playername%
+}
+
+customization {
+  showname = true
+  orientation = bottom-left
+  crouching = false
+  x = 52
+  slim = false
+  actionid = 2ebb970e-169b-42c8-abef-ba0b7b9ce01c1653592258346
+  action = addentity
+  y = -62
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  orientation = element
+  shadow = false
+  orientation_element = bf01f786-d7d2-4229-9018-6f087a6c1d761653592128690
+  x = 0
+  action = addtext
+  actionid = d79b10d7-1549-441f-87ef-076fb7c4a9c91653592327093
+  y = 19
+  scale = 1.0
+  alignment = left
+  value = Jugadores en linea %serverplayercount:mangodeath2.apexmc.co%
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+

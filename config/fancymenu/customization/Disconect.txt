@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  randomgroup = 1
+  identifier = net.minecraft.client.gui.screen.IngameMenuScreen
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398354%
+  action = sethoverlabel
+  label = 
+}
+
